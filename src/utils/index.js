@@ -1,0 +1,1 @@
+export const CAN_USE_DOM = typeof window !== 'undefined'
