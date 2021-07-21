@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "next/babel"
+    ]
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@pages": "./pages/",
+          "@components": "./src/components/",
+          "@redux": "./src/redux/",
+          "@views": "./src/views/",
+          "@config": "./src/config/",
+          "@features": "./src/features",
+          "@helpers": "./src/helpers"
+        }
+      }
+    ]
+  ]
+}
